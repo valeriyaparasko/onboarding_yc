@@ -1,0 +1,52 @@
+body {
+    margin: 50px;
+    font-family: "Graphik LCG";
+}
+
+h1 {
+    margin-left: 20px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid #FFCB00;
+    width: fit-content;
+    background-color: #FFCB00;
+    padding: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+}
+
+header {
+    display: flex;
+}
+
+.daycheck {
+    display: flex;
+}
+
+h3 {
+    font-size: 25px;
+    margin-left: 15px;
+    width: 350px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #333333;
+}
+
+
+input[type='checkbox']:checked {
+    background-color: #FFCB00;
+}
+
+
+div {
+    font-size: 25px;
+    line-height: 30px;
+}
